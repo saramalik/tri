@@ -12,6 +12,7 @@ rm(list=ls())
 library("tidyverse")
 library(readxl)
 library(Matching)
+library(data.table)
 
 setwd("/Users/smalik/DropBox/Grad School/Research/TRI")
 load("~/Dropbox/Grad School/Research/TRI/TRI_RSEI.RData")
